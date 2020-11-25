@@ -150,7 +150,6 @@ tar -xzf $CACHE_DIR/$FILE_NAME_GECKODRIVER -C $CACHE_DIR
 chmod +x $CACHE_DIR/$ARCHIVE_NAME_GECKODRIVER
 mv $CACHE_DIR/$ARCHIVE_NAME_GECKODRIVER $BUILD_DIR/vendor/$ARCHIVE_NAME_GECKODRIVER/
 chmod 777 $BUILD_DIR/vendor/$ARCHIVE_NAME_GECKODRIVER/
-chmod 777 /app/scraper/geckodriver
 
 topic "Setting paths"
 mkdir -p $BUILD_DIR/.profile.d
